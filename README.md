@@ -8,6 +8,9 @@ Aplikasi web Bahasa Malaysia untuk bahagi bil makan dengan kawan. Direka untuk p
 - Pilih sama ada mahu ambil gambar resit dengan kamera atau muat naik foto daripada album.
 - Tukar antara tab **Satu resit** dan **Gabung resit**. Tab **Satu resit** dibuka sebagai lalai; mod gabungan menyimpan beberapa resit berasingan dan mengira semua hidangan dalam satu jumlah.
 - Tambah, sunting, assign kepada kawan, atau buang hidangan.
+- Tambah diskaun pada hidangan bila perlu, dalam nilai RM atau peratus. Diskaun ditolak sebelum cukai dikira.
+- Paparan diperbesarkan untuk bacaan mudah dan ringkasan bil berada di bahagian bawah, seperti resit.
+- Ikon makanan berwarna membantu membezakan bahagian bayaran setiap orang.
 - Tambah dan buang kawan; hidangan mereka akan dipindahkan kepada kawan pertama yang tinggal.
 - Tambah pelbagai cukai atau caj peratus. Setiap caj dibahagi mengikut nilai makanan setiap orang.
 - Lihat laporan penuh makanan, cukai, item setiap kawan, dan jumlah bayaran.
