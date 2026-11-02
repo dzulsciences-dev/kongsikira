@@ -5,6 +5,8 @@ Aplikasi web Bahasa Malaysia untuk bahagi bil makan dengan kawan. Direka untuk p
 ## Fungsi
 
 - Imbas foto resit menggunakan OCR dalam pelayar. OCR perlukan internet; semak setiap item dan harga yang dikenal pasti.
+- Pilih sama ada mahu ambil gambar resit dengan kamera atau muat naik foto daripada album.
+- Tukar antara tab **Satu resit** dan **Gabung resit**. Tab **Satu resit** dibuka sebagai lalai; mod gabungan menyimpan beberapa resit berasingan dan mengira semua hidangan dalam satu jumlah.
 - Tambah, sunting, assign kepada kawan, atau buang hidangan.
 - Tambah dan buang kawan; hidangan mereka akan dipindahkan kepada kawan pertama yang tinggal.
 - Tambah pelbagai cukai atau caj peratus. Setiap caj dibahagi mengikut nilai makanan setiap orang.
@@ -20,4 +22,4 @@ Aplikasi web Bahasa Malaysia untuk bahagi bil makan dengan kawan. Direka untuk p
 4. Selepas deployment berjaya, buka pautan Pages pada telefon.
 5. Pilih **Add to Home Screen** (iPhone) atau **Install app** (Android).
 
-Semua data bil disimpan dalam storan pelayar pada peranti itu. OCR memuatkan Tesseract.js daripada CDN; kalau pengecaman gagal, tambah atau betulkan item secara manual.
+Semua data bil disimpan dalam storan pelayar pada peranti itu. OCR memuatkan Tesseract.js daripada CDN; kalau pengecaman gagal, tambah atau betulkan item secara manual. Dalam mod gabungan, senarai kawan dan kadar cukai digunakan bersama untuk semua resit.
