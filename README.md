@@ -1,21 +1,23 @@
 # KongsiKira
 
-Aplikasi web ringkas dalam Bahasa Malaysia untuk membahagi bil makan. Berfungsi pada telefon dan desktop; boleh dipasang sebagai PWA.
+Aplikasi web Bahasa Malaysia untuk bahagi bil makan dengan kawan. Direka untuk paparan telefon dan desktop, dan boleh dipasang sebagai PWA melalui GitHub Pages.
 
-## Ciri
+## Fungsi
 
-- Imbas foto resit dan baca teks melalui OCR dalam pelayar (memerlukan internet untuk memuat turun enjin OCR pada penggunaan pertama).
-- Tambah dan ubah item, kuantiti, harga, dan tetapkan seorang kawan bagi setiap item.
-- Tambah pelbagai jenis cukai atau caj dengan kadar peratus tersuai.
-- Bahagikan cukai mengikut bahagian item yang dipesan dan agihkan pembundaran kepada sen.
-- Salin ringkasan pembayaran untuk dikongsi dalam group chat.
-- Simpan draf pada peranti dan cache shell aplikasi untuk penggunaan semula.
+- Imbas foto resit menggunakan OCR dalam pelayar. OCR perlukan internet; semak setiap item dan harga yang dikenal pasti.
+- Tambah, sunting, assign kepada kawan, atau buang hidangan.
+- Tambah dan buang kawan; hidangan mereka akan dipindahkan kepada kawan pertama yang tinggal.
+- Tambah pelbagai cukai atau caj peratus. Setiap caj dibahagi mengikut nilai makanan setiap orang.
+- Lihat laporan penuh makanan, cukai, item setiap kawan, dan jumlah bayaran.
+- Salin laporan untuk group chat atau cetak/simpan sebagai PDF.
+- Simpan draf pada peranti. Versi web boleh dimuat semula melalui service worker.
 
 ## Terbitkan ke GitHub Pages
 
-1. Muat naik fail projek ini ke repositori GitHub.
+1. Muat naik `index.html`, `manifest.webmanifest`, `sw.js`, `icon.svg`, dan `README.md` ke akar repositori.
 2. Buka **Settings → Pages**.
-3. Pilih **Deploy from a branch**, pilih `main` dan folder `/ (root)`, kemudian tekan **Save**.
-4. Buka URL GitHub Pages pada telefon. Untuk memasang, pilih **Add to Home Screen** (iPhone) atau **Install app** (Android).
+3. Pilih **Deploy from a branch**, branch `main`, folder `/(root)`, dan tekan **Save**.
+4. Selepas deployment berjaya, buka pautan Pages pada telefon.
+5. Pilih **Add to Home Screen** (iPhone) atau **Install app** (Android).
 
-OCR menggunakan Tesseract.js dari CDN. Jika tiada internet atau pengecaman kurang tepat, tambah item menggunakan butang **Tambah item** dan semak semua harga imbasan sebelum berkongsi.
+Semua data bil disimpan dalam storan pelayar pada peranti itu. OCR memuatkan Tesseract.js daripada CDN; kalau pengecaman gagal, tambah atau betulkan item secara manual.
