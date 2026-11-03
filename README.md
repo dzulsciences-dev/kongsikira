@@ -7,6 +7,7 @@ Aplikasi web Bahasa Malaysia untuk bahagi bil makan dengan kawan. Direka untuk p
 - Imbas foto resit menggunakan OCR dalam pelayar. OCR perlukan internet; semak setiap item dan harga yang dikenal pasti.
 - Pilih sama ada mahu ambil gambar resit dengan kamera atau muat naik foto daripada album.
 - Tukar antara tab **Satu resit** dan **Gabung resit**. Tab **Satu resit** dibuka sebagai lalai; mod gabungan menyimpan beberapa resit berasingan dan mengira semua hidangan dalam satu jumlah.
+- Aliran penggunaan dibahagi kepada tiga halaman: pilih jenis resit dan gambar, masukkan nama, kemudian semak item/cukai/laporan.
 - Tambah, sunting, assign kepada kawan, atau buang hidangan.
 - Tambah diskaun pada hidangan bila perlu, dalam nilai RM atau peratus. Diskaun ditolak sebelum cukai dikira.
 - Paparan diperbesarkan untuk bacaan mudah dan ringkasan bil berada di bahagian bawah, seperti resit.
